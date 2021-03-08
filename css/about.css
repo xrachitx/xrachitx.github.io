@@ -1,0 +1,385 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: #f3eee8;
+    overflow-x: hidden;
+}
+
+.text {
+    position: absolute;
+    top: 175px;
+    left: 75px;
+    transform: rotate(-90deg);
+  }
+  
+  .text h1 {
+    height: 150px;
+    width: 600px;
+    left: -20px;
+    font-size: 100px;
+    font-family: basic-sans, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    /* color: #6d5b57; */
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  .text h1 .hidetext {
+    position: absolute;
+  }
+  
+  .text h2 {
+    position: absolute;
+    top: 145px;
+    left: -25px;
+    color: #eeda5c;
+    width: auto;
+    z-index: -1;
+    font-size: 45px;
+    /* font-weight: 700; */
+    letter-spacing: 0px;
+    /* text-transform: uppercase; */
+    font-family: basic-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+
+  .text h3 {
+    font-size: 20px;
+    font-family: basic-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1;
+    color: #6d5b57;
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    width: 500px;
+    transform: rotate(90deg);
+  }
+  .text h3 .hidetext {
+    position: absolute;
+    font-family: basic-sans, sans-serif;
+  }
+  
+  .text p {
+    width: 400px;
+    font-size:  20px;
+    margin-top: 200px;
+    margin-left: 250px;
+    font-weight: 700;
+    font-family: basic-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    height: 110px;
+    transform: rotate(90deg);
+  }
+  .text p .hidetext {
+    position: absolute;
+  }  
+
+.distortion {
+    width: 515.5555px;
+    height: 640px;
+    position: absolute;
+    left: 1250px;
+    top: 150px;
+}
+.caption {
+    position: absolute;
+    top:610px;
+    margin-top: 2px;
+    left:1080px;
+    width: 50px;
+    height: 300px;
+    margin-left: 200px;
+}
+  .toggle-btn {
+    position: fixed;
+    margin: 1.4em;
+    padding: 1em;
+    width: 40px;
+    height: 12px;
+    right: 0;
+    z-index: 201;
+}
+
+span.gamer:hover{
+    color: #000;
+}
+
+span.designer:hover{
+    color: #000;
+}
+
+span.developer:hover{
+    color: #000;
+}
+
+span.one {
+    position: fixed;
+    width: 40px;
+    height: 2px;
+    background: #000;
+}
+
+span.two {
+    position: fixed;
+    width: 40px;
+    height: 2px;
+    background: #000;
+    margin-top: 12px;
+}
+
+.menu {
+    z-index: 200;
+    position: fixed;
+    background: #101010;
+    height: 100vh;
+    width: 100%;
+
+    top: -120%;
+}
+
+.data {
+    position: absolute;
+    padding: 8em 0 0 2em;
+    text-align: left;
+    top: 10%;
+    left: 40%;
+}
+
+ul {
+    list-style: none;
+}
+
+li:first-child {
+    color: grey;
+    font-family: basic-sans, sans-serif;
+    font-size: 24px;
+}
+
+li:not(:first-child) {
+    color: #fff;
+    font-size: 42px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: basic-sans, sans-serif;
+}
+
+.polaroid{
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 20px;
+  box-shadow: 0 0.25em 1em rgba(0,0,0,0.2);
+}
+
+
+.img{
+  height: auto;  
+}
+.captionpolaroid{
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: center;
+  font-family: basic-sans, sans-serif;
+}
+
+.more{
+    transform: rotate(0deg);
+    color: #6d5b57;
+    position: absolute;
+    left: 1400px;
+    /* width: 9000px;
+    height: 20000px; */
+    top: 880px;
+  }
+
+.educationsub{
+    /* transform: rotate(0deg); */
+    left: 150px;
+    /* top: 20000000; */
+    margin-top: 100px;
+    margin-left: -70px;
+}
+
+.educationbloc{
+    position: relative;
+}
+.educationleftpolar{
+    position: absolute;
+    top: 1350px;
+    left: 400px;
+    transform: rotate(-6deg);
+}
+.educationrightpolar{
+    position: absolute;
+    top: 1150px;
+    left: 900px;
+    transform: rotate(6deg);
+}
+.edutext{
+    position: absolute;
+    margin-top: 170px;
+    left: 350px;
+    width: 600px;
+}
+
+.text .hobbiesub{
+    /* transform: rotate(90deg); */
+    left: 800px;
+    margin-top: 20px;
+    top: 400px;
+    color: #614f4b;
+}
+
+.hobbiebloc{
+    position: relative;
+    z-index: 200;
+}
+.hobbieleftpolar{
+    position: absolute;
+    top: 2100px;
+    left: 250px;
+    transform: rotate(-6deg);
+}
+
+.centerpolar{
+    position: absolute;
+    top: 2050px;
+    left: 700px;
+    transform: rotate(2deg);
+    z-index: 102;
+}
+.hobbierightpolar{
+    position: absolute;
+    top: 2000px;
+    left: 1300px;
+    transform: rotate(6deg);
+    z-index: 102;
+}
+
+.hobtext{
+    position: absolute;
+    margin-top: 250px;
+    left: 350px;
+    width: 600px;
+    color: #553e38;
+}
+
+
+
+
+#parallax-lvl-0, #parallax-lvl-1, #parallax-lvl-2, #parallax-lvl-3,#parallax-lvl-leftrotate {
+    position: absolute;
+    top: 100;
+  }
+  #parallax-lvl-1 {
+    z-index:5;
+  }
+  #parallax-lvl-2 {
+    z-index:10;
+  }
+  #parallax-lvl-2-5 {
+    z-index:10;
+  }
+  #parallax-lvl-3 {
+    z-index:100;
+  }
+  #parallax-lvl-leftrotate {
+    z-index:200;
+  }
+  #parallax-lvl-rightrotate {
+    z-index:400;
+  }
+
+
+  
+  .bubble {
+    border-radius: 100%;
+    position: absolute;
+    opacity: 0.7;
+  }
+  .halfbubble {
+    /* border-radius: 100%; */
+    border-top-left-radius: 2000px;
+    border-top-right-radius: 2000px;    
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    /* height: ; */
+    position: absolute;
+    opacity: 0.7;
+  }
+  .size1 {
+    width:200px;
+    height:200px;
+  }
+  .size2 {
+    height: 100vh;
+    width: 100vh;
+  }
+  .size2-5 {
+    height: 150vh;
+    width: 100vw;
+  }
+  .size3 {
+    width:100vw;
+    height:180vh;
+  }
+  .size4 {
+    width:400px;
+    height:400px;
+  }
+  .white {
+    background-color: #ededed;
+  }
+  .blue {
+    background-color: #5799a9;
+  }
+  .pink {
+    background-color: #e86d65;
+  }
+  .orange {
+    background-color: #e59e70;
+  }
+  .purple {
+    background-color: #8c5e7a;
+  }
+  .green {
+    background-color: #1d7f59;
+  }
+  .iiitcolor{
+      background-color: #3fada8;
+  }
+  /* Bubble positions */
+  #b1-1 {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+  }
+  #b2-1 {
+    top:10px;
+    left:885px;
+  }
+  #b3-1 {
+    top:1300px;
+    left:50%;
+    z-index: 0;
+  }
+  #b4-1 {
+    top:2100px;
+    left:50%;
+    z-index: 100;
+    opacity: 1;
+  }
+
+ 
