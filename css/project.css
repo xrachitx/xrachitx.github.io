@@ -403,12 +403,18 @@ span.two {
     margin-top: 40px;
 }
 
-a {
+.lidata a {
     text-decoration: none;
     color: #f3eee8;
     font-family: basic-sans, sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #553e38;
+  /* color: #f3eee8; */
+  /* font-family: basic-sans, sans-serif; */
+}
 .added{
   position: absolute;
   /* top: 0px; */
