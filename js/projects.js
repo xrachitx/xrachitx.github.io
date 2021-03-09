@@ -137,7 +137,7 @@ TweenMax.staggerTo(".savingwater", 1.5, {
   y:"-470px",
 })
 
-$(".sw").append("<div class='added'>The Saving Blue project aimed at tackling the deteriorating condition of life underwater due to various commercial activities being carried out in coastal regions/banks as well as water bodies. We aimed to provide people with incentivized ways to contribute to the community of people who took part in offline and online drives to protect our water bodies. Click on the logo to checkout more!</div>")
+$(".sw").append("<div class='added' id='savingw'>The entire concept of my typography revolves around the fact of human tampering with the river bodies. Initially we are shown a beautiful sea with the words “sea water” written over it. When the human “tampers” with the sea by dragging the mouse cursor vigorously over the sea we are shown the reality of the “beautiful” sea.  The beautiful sea loses all its water and we are shown that it was actually a junkyard where people had thrown all their junk. The words “sea water” are changed to “save water” with the “v” made with the blue colour of the sea. Thus I had shown human tampering of the ocean by the mechanical “tampering” of the ocean on the website. Click on the logo to checkout more!</div>")
 TweenMax.staggerTo(".added", 0.5, {
     delay:1.5,
     opacity:1
