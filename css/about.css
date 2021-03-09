@@ -122,13 +122,13 @@ html, body {
 }
 
 .designer:hover{
-  cursor: url("/static/img/coding.png"),auto;
+  cursor: url("../static/img/controller.png"),auto;
     color: #424242;
 }
 
 .developer:hover{
     color: #424242;
-    cursor: url("/static/img/coding.png"),auto;
+    cursor: url("../static/img/coding.png"),auto;
 
 }
 
