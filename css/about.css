@@ -118,11 +118,11 @@ html, body {
 
 .gamer:hover{
     color: #424242;
-    cursor: url("../static/img/pen.png"),auto;
+    cursor: url("../static/img/controller.png"),auto;
 }
 
 .designer:hover{
-  cursor: url("../static/img/controller.png"),auto;
+  cursor: url("../static/img/pen.png"),auto;
     color: #424242;
 }
 
