@@ -107,6 +107,10 @@ html, body {
     right: 0;
     z-index: 201;
 }
+.toggle-btn:hover{
+  transform: scale(1.3);
+  transition: transform .2s;
+}
 
 
 span.one {
@@ -268,8 +272,11 @@ span.two {
     top: 100%;
     left: 70%;
   }
-  ul {
-    margin: 0;
+
+  .blocks {
+    width: 100% ;
+    height: 70vh;	
+    margin-top: 12%;
     padding: 0;
     display: flex;
     width: 100%;
@@ -278,16 +285,28 @@ span.two {
     justify-content: center;
     align-items: center;
   }
-  .blocks {
-    width: 100% ;
-    height: 70vh;	
-  }
   
-  .blocks div {
+  .tc {
     color: #553e38;
-    font-family: basic-sans, sans-serif;
-    font-weight: 700;
-    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+  }
+
+  .sb {
+    color: #553e38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+  }
+  .sw {
+    color: #553e38;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -299,7 +318,6 @@ span.two {
   .block-1 {
     border-radius: 100%;
     opacity: 1.0;
-
     height: 400px;
     width: 400px;
   }
@@ -327,6 +345,77 @@ span.two {
 
   .savingblue {
     border-radius: 50%;
-    width: 350px;
-    height: 300px;
+    width: 600px;
+    height: 500px;
   }
+  .savingwater {
+    border-radius: 50%;
+    width: 100%;
+    height: 15%;
+    left: 100%;
+    font-family: basic-sans, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  span.one {
+    position: fixed;
+    width: 40px;
+    height: 2px;
+    background: #424242;
+}
+
+span.two {
+    position: fixed;
+    width: 40px;
+    height: 2px;
+    background: #424242;
+    margin-top: 12px;
+}
+
+.menu {
+    z-index: 200;
+    position: fixed;
+    background: #665652;
+    height: 100vh;
+    width: 100%;
+
+    top: -120%;
+}
+
+.data {
+    position: absolute;
+    padding: 8em 0 0 2em;
+    text-align: left;
+    top: 10%;
+    left: 40%;
+}
+
+.ull {
+    list-style: none;
+}
+
+.lidata {
+    color: #f3eee8;
+    font-size: 42px;
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #f3eee8;
+    font-family: basic-sans, sans-serif;
+}
+
+.added{
+  position: absolute;
+  /* top: 0px; */
+  margin-top: 0%;
+  margin-left: 5%;
+  width: 50%;
+  opacity: 0;
+  font-size: 40px;
+  font-family: basic-sans, sans-serif;
+  font-weight: 600;
+}
