@@ -1,0 +1,61 @@
+@import url("https://use.typekit.net/ebn7fjs.css");
+
+svg{
+    margin-left: 25%;
+}
+
+text{
+    font-size: 16px;
+    font-family: basic-sans, sans-serif;
+ }
+  text.title{
+     position: absolute;
+     font-size: 24px;
+     font-weight: 500;
+     left: 50%;
+  }
+  text.label{
+     font-weight: 600;
+  }
+
+  text.valueLabel{
+     font-weight: 300;
+  }
+
+  text.yearText{
+     font-size: 64px;
+     font-weight: 700;
+     opacity: 0.25;
+  }
+  .tick text {
+     fill: #777777;
+  }
+  .xAxis .tick:nth-child(2) text {
+     text-anchor: start;
+  }
+  .tick line {
+     shape-rendering: CrispEdges;
+     stroke: #dddddd;
+  }
+  .tick line.origin{
+     stroke: #aaaaaa;
+  }
+  path.domain{
+     display: none;
+  }
+  div {
+      position: absolute;
+      text-align: center;
+      width: 10%;
+      height: 5%;
+      font-family: basic-sans, sans-serif;
+      /* left: 25%; */
+  }
+  .play{
+      position: static;
+      margin-left: 45%;
+      margin-top: 5%;
+  }
+  div:hover{
+    color: rgb(54, 54, 54);
+}
