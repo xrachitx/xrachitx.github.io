@@ -30,6 +30,7 @@ const margin = {
     .style("opacity", 0)
     .attr("class", "tooltip")
     .style("background-color", "black")
+    .style("position","absolute")
     .style("border-radius", "5px")
     .style("padding", "10px")
     .style("color", "white")
@@ -227,7 +228,6 @@ const margin = {
          .on("mouseleave", hideTooltip )
 
        yearText.html(~~year)
-   
 
     }
 
@@ -249,6 +249,7 @@ const margin = {
              }
              else{
                 play_var= false;
+                document.getElementById("play_id").innerHTML="Finished"
                 window.clearInterval(play_interval)
              }
           },100)
